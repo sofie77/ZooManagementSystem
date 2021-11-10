@@ -14,6 +14,21 @@ namespace Zoo.ConsoleApp
   {
     public static void Main()
     {
+      var ducks = new[]
+      {
+        new Duck(new DateTime(2010, 4, 28)),
+        new Duck(new DateTime(2012, 5, 11))
+      };
+      var gooses = new[]
+      {
+        new Goose(new DateTime(2010, 4, 28)),
+        new Goose(new DateTime(2012, 5, 11))
+      };
+      var guineaFouls = new[]
+       {
+        new GuineaFoul(new DateTime(2010, 4, 28)),
+        new GuineaFoul(new DateTime(2012, 5, 11))
+      };
       var lions = new[]
       {
         new Lion(new DateTime(2010, 4, 28)),
